@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    position: sticky;
+   top: 0;
+   z-index: 100;
+   background-color: #bdc3c7;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222f3e;
+    padding-right: 40px;
+}
+.fa .fa-cart-plus{
+    color: blue;
+}
+.navbar-brand:hover{
+ color: #000;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 40px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+ .nav-link a{
+ padding: 50px;
+ margin: 5px;
+}
+.search{
+    border: solid mediumturquoise;
+    height: 30px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn1{
+    height: 30px;
+    width: 35%;
+    outline: none;
+    border: none;
+    background: mediumturquoise;
+    color: rgb(82, 55, 55);
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.btn1:hover{
+ background-color: #FC427B;
+transition: 0.5s ease-out;
+}
+.main{
+    background: url(RacingBike.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100% ;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: gold;
+    text-align: center;   
+}
+.btn2{
+   height: 45px; 
+   width: 35%;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-weight: 700;
+   border-radius: 60px;
+   background: #FC427B;
+}
+.link{
+    outline:none;
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+  }
+  .link:hover{
+   outline:none;
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+  }
+.card:hover {
+ box-shadow: 7px 9px 4px -2px rgba(0,0,0,0.64);
+-webkit-box-shadow: 7px 9px 4px -2px rgba(0,0,0,0.64);
+-moz-box-shadow: 7px 9px 4px -2px rgba(0,0,0,0.64);
+}
+.fon{
+    font-weight:700;
+    color: yellowgreen;
+  }
+.fon1{
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .last{
+    background-color: #000;  
+    color: #fff;
+  }
+  .btn3{
+      height: 45px;
+      width: 100px;
+      background: #fff;
+      margin-left: -10px;
+      font-weight: 600;
+      border: 2px solid white;
+  }
+  .last input{
+    height: 45px;
+    width: 55%;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid white;
+    margin-top: 20px;
+    outline: none;
+  }
+  .last::placeholder{
+      color: #fff;
+  }
+  .last p{
+      margin: 0;
+  }
+  .fa{
+     font-size: 2.3rem; 
+     cursor: pointer;
+     padding-right: 5px;
+  }
+  .place{
+      color: #fff;
+  }
+  .btn3{
+      background-color: #9980FA;
+  }
